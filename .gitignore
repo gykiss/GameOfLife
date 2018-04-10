@@ -12,3 +12,7 @@ GameOfLife/GameOfLife\.GOF/obj/
 GameOfLife/GameOfLife\.Phone/GameOfLife\.Phone\.Android/obj/
 
 GameOfLife/GameOfLife\.Test/obj/
+
+GameOfLife/GameOfLife\.API/bin/
+
+GameOfLife/GameOfLife\.GOF/bin/

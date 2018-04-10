@@ -1,0 +1,14 @@
+
+GameOfLife/\.vs/
+
+GameOfLife/GameOfLife\.API/obj/
+
+GameOfLife/GameOfLife\.DAL/bin/
+
+GameOfLife/GameOfLife\.DAL/obj/
+
+GameOfLife/GameOfLife\.GOF/obj/
+
+GameOfLife/GameOfLife\.Phone/GameOfLife\.Phone\.Android/obj/
+
+GameOfLife/GameOfLife\.Test/obj/

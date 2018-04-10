@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife.API", "GameOfLife.API\GameOfLife.API.csproj", "{CDC089FD-0582-4126-A93F-559880130359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife.GOF", "GameOfLife.GOF\GameOfLife.GOF.csproj", "{E7CAE0C6-A0E5-480B-880C-68E9CFBCEECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife.Test", "GameOfLife.Test\GameOfLife.Test.csproj", "{5B8B5AF5-7346-4A13-8269-CCA15EBE2A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife.DAL", "GameOfLife.DAL\GameOfLife.DAL.csproj", "{643EE2CE-2796-4686-A8E4-D0BE674B24D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife.Phone.Android", "GameOfLife.Phone\GameOfLife.Phone.Android\GameOfLife.Phone.Android.csproj", "{9B5920B6-227F-403C-9E88-685193744E27}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GameOfLife.Phone", "GameOfLife.Phone\GameOfLife.Phone\GameOfLife.Phone.shproj", "{9663D8D6-04EB-41EC-AC26-F3E4A95BCACB}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		GameOfLife.Phone\GameOfLife.Phone\GameOfLife.Phone.projitems*{9663d8d6-04eb-41ec-ac26-f3e4a95bcacb}*SharedItemsImports = 13
+		GameOfLife.Phone\GameOfLife.Phone\GameOfLife.Phone.projitems*{9b5920b6-227f-403c-9e88-685193744e27}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDC089FD-0582-4126-A93F-559880130359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC089FD-0582-4126-A93F-559880130359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC089FD-0582-4126-A93F-559880130359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC089FD-0582-4126-A93F-559880130359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CAE0C6-A0E5-480B-880C-68E9CFBCEECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CAE0C6-A0E5-480B-880C-68E9CFBCEECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CAE0C6-A0E5-480B-880C-68E9CFBCEECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CAE0C6-A0E5-480B-880C-68E9CFBCEECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8B5AF5-7346-4A13-8269-CCA15EBE2A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8B5AF5-7346-4A13-8269-CCA15EBE2A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8B5AF5-7346-4A13-8269-CCA15EBE2A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8B5AF5-7346-4A13-8269-CCA15EBE2A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643EE2CE-2796-4686-A8E4-D0BE674B24D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643EE2CE-2796-4686-A8E4-D0BE674B24D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643EE2CE-2796-4686-A8E4-D0BE674B24D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643EE2CE-2796-4686-A8E4-D0BE674B24D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5920B6-227F-403C-9E88-685193744E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5920B6-227F-403C-9E88-685193744E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5920B6-227F-403C-9E88-685193744E27}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9B5920B6-227F-403C-9E88-685193744E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5920B6-227F-403C-9E88-685193744E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5920B6-227F-403C-9E88-685193744E27}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B506EA8C-2848-4141-A346-A93E18B0FBC7}
+	EndGlobalSection
+EndGlobal

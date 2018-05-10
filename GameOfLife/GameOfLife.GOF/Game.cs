@@ -95,9 +95,5 @@ namespace GameOfLife.GOF
             }
             return border;
         }
-
-
     }
-
-
 }

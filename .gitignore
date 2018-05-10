@@ -16,3 +16,7 @@ GameOfLife/GameOfLife\.Test/obj/
 GameOfLife/GameOfLife\.API/bin/
 
 GameOfLife/GameOfLife\.GOF/bin/
+
+GameOfLife/GameOfLife\.Client/bin/
+
+GameOfLife/GameOfLife\.Client/obj/

@@ -17,7 +17,7 @@ namespace GameOfLife.API.Controllers
         {
             return new ObjectResult(new Models.NextDataRequest()
             {
-                Data = new GameOfLife.GOF.Game().GetNextGeneration(value.Data)
+                Data = new GOF.Game().GetNextGeneration(value.Data)
             });
         }
     }
